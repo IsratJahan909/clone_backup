@@ -1,0 +1,60 @@
+name: flutter_hr
+description: "HR and Payroll Management System - Flutter App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  jwt_decoder: ^2.0.1
+  flutter_slidable: ^3.0.1
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  intl: ^0.19.0
+  fluttertoast: ^8.2.8
+  provider: ^6.1.2
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  pdf: ^3.11.1
+  printing: ^5.13.3
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^4.0.0
+
+
+flutter_icons:
+    image_path: "assets/icon/icon.png"
+    android: true # Generate Android icons
+    ios: true     # Generate iOS icons
+    adaptive_icon_background: "#FFFFFF"
+    adaptive_icon_foreground: "assets/icon/icon.png"
+    # optionally, as transparency is not allowed on app store
+    # remove_alpha_ios: true
+
+#flutter_launcher_icons:
+#  android: true
+#  ios: true
+#  image_path: "assets/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+#  assets:
+#    - assets/app_icon.png
+    # অন্যান্য assets যোগ করতে পারেন, যেমন:
+    # - assets/images/
+
+#   flutter run flutter_launcher_icons:main
