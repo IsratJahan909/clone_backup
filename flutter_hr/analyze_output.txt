@@ -1,0 +1,83 @@
+﻿Resolving dependencies...
+Downloading packages...
+  characters 1.4.0 (1.4.1 available)
+  ffi 2.1.5 (2.2.0 available)
+  fl_chart 0.68.0 (1.1.1 available)
+  flutter_lints 4.0.0 (6.0.0 available)
+  flutter_slidable 3.1.2 (4.0.3 available)
+  fluttertoast 8.2.14 (9.0.0 available)
+  image 4.5.4 (4.7.2 available)
+  intl 0.19.0 (0.20.2 available)
+  lints 4.0.0 (6.1.0 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.17.0 (1.18.1 available)
+  test_api 0.7.7 (0.7.9 available)
+Got dependencies!
+13 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing flutter_hr...                                         
+
+  error - Target of URI doesn't exist: 'screens/employee_dashboard_screen.dart' - lib\main.dart:5:8 - uri_does_not_exist
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:64:11 - prefer_const_constructors
+  error - The name 'EmployeeDashboardScreen' isn't a class - lib\main.dart:68:17 - creation_with_non_type
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:69:11 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\main.dart:134:31 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\main.dart:136:19 - use_build_context_synchronously
+warning - Unused import: 'dart:convert' - lib\models\employee.dart:1:8 - unused_import
+   info - The constant name 'FULL_TIME' isn't a lowerCamelCase identifier - lib\models\employee.dart:4:3 - constant_identifier_names
+   info - The constant name 'PART_TIME' isn't a lowerCamelCase identifier - lib\models\employee.dart:5:3 - constant_identifier_names
+   info - The constant name 'CONTRACT' isn't a lowerCamelCase identifier - lib\models\employee.dart:6:3 - constant_identifier_names
+   info - The constant name 'INTERN' isn't a lowerCamelCase identifier - lib\models\employee.dart:7:3 - constant_identifier_names
+   info - Don't invoke 'print' in production code - lib\providers\hr_provider.dart:25:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\providers\hr_provider.dart:37:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\providers\hr_provider.dart:46:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\providers\hr_provider.dart:56:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\providers\hr_provider.dart:68:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\providers\hr_provider.dart:80:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\providers\hr_provider.dart:90:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin_dashboard_screen.dart:105:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin_dashboard_screen.dart:108:24 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\screens\department_screen.dart:27:33 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\department_screen.dart:135:33 - prefer_const_constructors
+warning - Unused import: '../models/department.dart' - lib\screens\employee_screen.dart:5:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\screens\employee_screen.dart:7:7 - use_key_in_widget_constructors
+   info - Invalid use of a private type in a public API - lib\screens\employee_screen.dart:9:3 - library_private_types_in_public_api
+   info - Don't use 'BuildContext's across async gaps - lib\screens\employee_screen.dart:36:42 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:47:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:54:79 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:55:78 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:56:75 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:57:75 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:58:74 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:59:81 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:60:76 - prefer_const_constructors
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\employee_screen.dart:63:21 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:67:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:73:31 - prefer_const_constructors
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\employee_screen.dart:74:25 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:78:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:83:77 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:84:78 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:90:72 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:112:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:124:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:125:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:129:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:129:58 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:136:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:141:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\employee_screen.dart:150:84 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\login_screen.dart:187:43 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\login_screen.dart:287:41 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\login_screen.dart:305:41 - prefer_const_constructors
+
+flutter : 53 issues found. (ran in 5.3s)
+At line:1 char:1
++ flutter analyze 2>&1 | Out-File -FilePath 
+"G:\flutter_spring_hr\flutt ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (53 issues found 
+   . (ran in 5.3s):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
